@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url('../images/wallpaper.jpg');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	color: lightgreen;
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a {
+	text-decoration: underline;
+	color: green;
+	background-color: rgba(255,200,200,0.3);
+	border-radius: 60px;
+	cursor: pointer;
+}
+
+a:hover {
+	background-color: rgba(100,0,0,1);
+	color: lightgreen;
+}
+
+#choper {
+	width: 140px;
+	height: 165px;
+	position: absolute;
+	z-index: 3;
+    background-image: url('../images/blackhawk.gif');
+    transform: rotate(90deg);
+}
+
+.bullets div {
+	width: 24px;
+	height: 113px;
+	position:absolute;	
+    background-image: url('../images/rocket7.gif');
+    transform: rotate(90deg);
+    display: none;
+}
+
+#credits p {
+	margin: 0.3em;
+	font-size: 1.5em;
+}
+
+#back a {
+	font-size: 2em;
+	border: 1px solid red;
+	background-color: rgba(100,0,0,1);
+}
+
+#back {
+	padding-top: 1em;
+}

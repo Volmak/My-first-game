@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url('../images/clouds.png'), url('../images/island.png'), url('../images/background.jpg');
+	margin: 0;
+	padding: 0;
+}
+
+#plane {
+	bottom: 0px;
+	width: 140px;
+	height: 165px;
+	position: absolute;
+	z-index: 3;
+    background-image: url('../images/blackhawk.gif');
+}
+
+.bullet {
+	width: 24px;
+	height: 113px;
+	z-index: 5;
+	position:absolute;	
+    background-image: url('../images/rocket7.gif');
+}
+
+#targets {
+	position: relative;
+}
+
+#targets div {
+	display: none;
+	top: 0 px;
+	position: absolute;
+	width: 128px;
+	height: 128px;
+    background-image: url('../images/red.gif');
+    color: white;
+    font-weight: bold;
+}
+
+#stats {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#stats label {
+	float: left;
+	width: 33%;
+	z-index: 4;
+	font-weight: bold;
+	font-size: 20px;
+}
