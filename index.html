@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My very first PC game</title>
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+</head>
+<body>
+	<div id='container'>
+		<h1>My very first game ever!</h1>
+		<h2> Main menu:</h2>
+		<div id='choper'></div>
+		<div><h2><a id='play' href="javascript: boomClick('game.html')">Play!</a></h2></div>
+		<div><h2><a id='controls' href="javascript: boomClick('controls.html')">Controls</a></h2></div>
+		<div><h2><a id='highscores' href="javascript: boomClick('#')">Hight Scores</a></h2></div>
+		<div><h2><a id='credits' href="javascript: boomClick('credits.html')">Credits</a></h2></div>
+		<div><h2><a id='quit' href="javascript: boomClick('#')">Quit</a></h2></div>
+		<div class='bullets'>
+			<div id='1'></div>
+			<div id='2'></div>
+			<div id='3'></div>
+			<div id='4'></div>
+		</div>
+	</div>
+<audio id='background-sound' src='assets/sounds/helicopter2.mp3'></audio>
+<audio id='rocket-sound' src='assets/sounds/rocket1.mp3'></audio>
+<audio id='explosion-sound' src='assets/sounds/explosion1.mp3'></audio>
+<script type="text/javascript" src='assets/js/menu.js'></script>
+</body>
+</html>
