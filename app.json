@@ -1,0 +1,7 @@
+{
+	"name": "Chopper2d",
+	"description": "game",
+	"repository": "https://github.com/Volmak/My-first-game",
+	"keywords": ["my first game"],
+	"image": "heroku/nodejs"
+}
